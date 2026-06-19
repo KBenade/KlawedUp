@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse handmade press-on nails from KlawedUp. Discover custom nail sets, chrome designs, French tips, and reusable salon-quality nails.">
+    <meta name="keywords" content="press-on nails, chrome nails, French tip nails, custom nail sets, minimal nails">
+    <meta name="author" content="KlawedUp">
+
+    <meta property="og:title" content="KlawedUp Products | Handmade Press-On Nails">
+    <meta property="og:description" content="Browse custom press-on nails, chrome sets, French tips, and more from KlawedUp.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/officialLogo.png">
+    <meta property="og:url" content="http://127.0.0.1:5503/products.html">
+    
+    <link rel="stylesheet" href="/css_assets/style.css">
+    <title>KlawedUp Products | Handmade Press-On Nails</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation List -->
+        <table width="100%">
+            <tr>
+                <td width="220">
+                    
+                        <img src="images/officialLogo.png" alt="KlawedUp logo" width="180">
+                    
+                </td>
+                <td>
+                    <h1>KlawedUp Products</h1>
+                    <p>Find your perfect press-on nail set and continue to purchase.</p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <nav>
+            <p>
+                <a href="index.html">Home</a> |
+                <a href="about_us.html">About</a> |
+                <a href="products.html">Products</a> |
+                <a href="contact_us.html">Contact</a> |
+                <a href="enquiries.html">Enquiries</a> |
+                <a href="gallery.html">Gallery</a>
+            </p>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <div class="product-layout">
+            <aside class="filter-panel">
+                <h2>Filter</h2>
+                <hr>
+
+                <form action="products.html" method="get">
+                    <div class="filter-group">
+                        <h3>Category</h3>
+                        <p><input type="radio" id="short-sets" name="category"> <label for="short-sets">Short Nail Sets</label></p>
+                        <p><input type="radio" id="long-sets" name="category"> <label for="long-sets">Long Nail Sets</label></p>
+                        <p><input type="radio" id="custom-sets" name="category"> <label for="custom-sets">Custom Sets</label></p>
+                        <p><input type="radio" id="french-sets" name="category"> <label for="french-sets">French Tip Sets</label></p>
+                        <p><input type="radio" id="chrome-sets" name="category"> <label for="chrome-sets">Chrome Sets</label></p>
+                        <p><input type="radio" id="almond-sets" name="category"> <label for="almond-sets">Almond Sets</label></p>
+                        <p><input type="radio" id="stiletto-sets" name="category"> <label for="stiletto-sets">Stiletto Sets</label></p>
+                        <p><input type="radio" id="square-sets" name="category"> <label for="square-sets">Square Sets</label></p>
+                    </div>
+
+                    <hr>
+
+                    <div class="filter-group">
+                        <h3>Size</h3>
+                        <p><input type="checkbox" id="xs" name="size"> <label for="xs">XS</label></p>
+                        <p><input type="checkbox" id="s" name="size"> <label for="s">S</label></p>
+                        <p><input type="checkbox" id="m" name="size"> <label for="m">M</label></p>
+                        <p><input type="checkbox" id="l" name="size"> <label for="l">L</label></p>
+                        <p><input type="checkbox" id="custom-size" name="size"> <label for="custom-size">Custom Sizing</label></p>
+                    </div>    
+
+                    <hr>
+
+                    <div class="filter-group">
+                        <h3>Style</h3>
+                        <p><input type="checkbox" id="glossy" name="style"> <label for="glossy">Glossy</label></p>
+                        <p><input type="checkbox" id="matte" name="style"> <label for="matte">Matte</label></p>
+                        <p><input type="checkbox" id="minimal" name="style"> <label for="minimal">Minimal</label></p>
+                        <p><input type="checkbox" id="bold" name="style"> <label for="bold">Bold Art</label></p>
+                        <p><input type="checkbox" id="bridal" name="style"> <label for="bridal">Bridal</label></p>
+                    </div>
+
+                    <hr>
+
+                    <div class="filter-group">
+                        <h3>Details</h3>
+                        <p><input type="checkbox" id="charms" name="details"> <label for="charms">Charms</label></p>
+                        <p><input type="checkbox" id="chrome" name="details"> <label for="chrome">Chrome Finish</label></p>
+                        <p><input type="checkbox" id="flowers" name="details"> <label for="flowers">Floral Art</label></p>
+                        <p><input type="checkbox" id="glitter" name="details"> <label for="glitter">Glitter</label></p>
+                        <p><input type="checkbox" id="custom-initials" name="details"> <label for="custom-initials">Custom Initials</label></p>
+                    </div>    
+
+                    <p><button type="reset">Clear Filters</button></p>
+                </form>
+            </aside>
+
+            <div class="catalog-panel">
+                <div class="sort-row">
+                    <div>
+                        <p><strong>Sort By</strong></p>
+                    </div>
+
+                    <form action="products.html" method="get">
+                        <label for="sort-by" class="sr-only">Sort products</label>
+                        <select id="sort-by" name="sort-by">
+                            <option>Recommended</option>
+                            <option>Newest</option>
+                            <option>Price: Low to High</option>
+                            <option>Price: High to Low</option>
+                        </select>
+                    </form>
+
+                    <div>
+                        <p><strong>Trending Nail Designs</strong></p>
+                    </div>
+                </div>
+
+                <div class="product-grid">
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/winter_wonderland.jpg" alt="Winter Wonderland cool-toned handmade press-on nail set" width="100%"
+                            loading="lazy">
+                        </picture>
+                        <p><strong>Winter Wonderland</strong></p>
+                        <p>Elegant cool-toned nail set with a luxe seasonal finish.</p>
+                        <p><strong>R129</strong> | 31+ sold</p>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                            <picture>
+                                <img src="images/butter_yellow_morning.jpg" alt="Butter Yellow Morning pastel handmade press-on nail set" width="100%" loading="lazy">
+                            </picture>
+                            <p><strong>Butter Yellow Morning</strong></p>
+                            <p>Soft pastel set for fresh, playful everyday styling.</p>
+                            <p><strong>R375</strong> | 300+ sold</p>
+                            <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/floral.jpg" alt="Floral handmade press-on nail set with minimal flower art" width="100%" loading="lazy">
+                        </picture>
+                            <p><strong>Floral</strong></p>
+                            <p>Minimal floral artistry for a clean and polished look.</p>
+                            <p><strong>R186</strong> | 600+ sold</p>
+                            <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/pretty_in_pink.jpg" alt="Pretty in Pink glossy handmade press-on nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Pretty in Pink</strong></p>
+                        <p>Glossy pink press-ons designed for a sweet statement finish.</p>
+                        <p><strong>R236</strong> | 400+ sold</p>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/chrome_princess.jpg" alt="Chrome Princess reflective chrome handmade press-on nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Chrome Princess</strong></p>
+                        <p>Reflective chrome beauty with soft glamour details.</p>
+                        <p><strong>R218</strong> | 4.4k+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/streetwear_style_chrome.jpg" alt="Streetwear Style Chrome bold handmade press-on nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Streetwear Style Chrome</strong></p>
+                        <p>Bold fashion-forward chrome design with edge and shine.</p>
+                        <p><strong>R210</strong> | 280+ sold</p>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/abstract_custom.jpg" alt="Abstract Custom creative handmade press-on nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Abstract Custom</strong></p>
+                        <p>Creative custom-inspired artwork for standout nail styling.</p>
+                        <p><strong>R245</strong> | 190+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/white_frenchies_with_initials.jpg" alt="White Frenchies with Initials personalised French tip press-on nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>White Frenchies with Initials</strong></p>
+                        <p>Classic French elegance personalised with initials.</p>
+                        <p><strong>R260</strong> | 150+ sold</p>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/celestial_blush_aura.jpg" alt="Celestial Blush Aura pink aura nail set with gold star accents" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Celestial Blush Aura</strong></p>
+                        <p>Dreamy pink aura art with celestial gold star accents.</p>
+                        <p><strong>R280</strong> | 4.2k+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/metamorphasis_wings.jpg" alt="Metamorphasis Wings butterfly nail set with blue accents" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Metamorphasis Wings</strong></p>
+                        <p>Vibrant butterfly wing tips with intricate details.</p>
+                        <p><strong>R210</strong> | 300+ sold</p>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/honey_bloom_flare.jpg" alt="Orange floral nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Honey Bloom Flare</strong></p>
+                        <br>
+                        <p>Bold amber 3D floral design.</p>
+                        <p><strong>R245</strong> | 2.5k+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/street_luxe_stiletto.jpg" alt="Street Luxe Stiletto nail set with charms and urban art" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Street Luxe Stiletto</strong></p>
+                        <p>Edgy stiletto set featuring 3D charms and urban art.</p>
+                        <p><strong>R300</strong> | 150+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/cyber_y2k_flare.jpg" alt="Cyber Y2K Flare electric pink leopard print nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Cyber Y2K Flare</strong></p>
+                        <br>
+                        <p>Electric pink leopard print with bold stars.</p>
+                        <p><strong>R320</strong> | 810k+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/aquamarine_dream_junk.jpg" alt="Aquamarine Dream Junk colourful teal charms, colourful maximalist nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Aquamarine Dream Junk</strong></p>
+                        <p>Maximlist teal set featuring heavy charms.</p>
+                        <p><strong>R450</strong> | 120+ sold</p>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/safari_bloom_almond.jpg" alt="Safari Bloom Almond tortoise shell floral nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Safari Bloom Almond</strong></p>
+                        <p>Chic tortoise shell patterns paired with 3D floral accents.</p>
+                        <p><strong>R245</strong> | 4k+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/midnight_cherry.jpg" alt="Midnight Cherry zebra print nail set with cherry accents" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Midnight Cherry</strong></p>
+                        <p>Edgyy stiletto set with zebra prints and cherry accents</p>
+                        <p><strong>R300</strong> | 285+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/electric_croc_stiletto.jpg" alt="Electric Croc Stiletto teal and black croc print nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Electric Croc Stiletto</strong></p>
+                        <p>Bold teal and black croc print stilettos with gold accents.</p>
+                        <p><strong>R300</strong> | 4.2k+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/monochrome_anarchy_stiletto.jpg" alt="Monochrome Anarchy Stiletto black and white nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Monochrome Anarchy Stiletto</strong></p>
+                        <p>Edgy black and white mixed prints with silver chain details.</p>
+                        <p><strong>R300</strong> | 300+ sold</p>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/minimalist_blush_french.jpg" alt="Minimalist Blush French pink almond french tip nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Minimalist Blush French</strong></p>
+                        <p>Classic soft pink base with clean baby pink almond tips.</p>
+                        <p><strong>R120</strong> | 8k+ sold</p>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/daisy_dew_french.jpg" alt="Daisy Dew French white floral french tip nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Daisy Dew French</strong></p>
+                        <p>Elegant white french almond tips with delicate floral accents.</p>
+                        <p><strong>R150</strong> | 3.8k+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/polka_bow_french.jpg" alt="Polka Bow French polka dot nail set with bow accents" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Polka Bow French</strong></p>
+                        <p>Chic polka dot design with bow accents.</p>
+                        <p><strong>R200</strong> | 4.2k+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/soft_blush_sparkle.jpg" alt="Soft Blush Sparkle pink french tip nail set with rhinestones" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Soft Blush Sparkle</strong></p>
+                        <p>Delicate nude almond base with subtle sparkle.</p>
+                        <p><strong>R200</strong> | 400+ sold</p>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/floral_almond_french.jpg" alt="White 3D Floral Almond French nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Floral Almond French</strong></p>
+                        <p>Simple white 3D floral design.</p>
+                        <p><strong>R245</strong> | 2.5k+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/crimson_petal_stiletto.jpg" alt="Crimson Petal Stiletto milky white floral nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Crimson Petal Stiletto</strong></p>
+                        <p>Clean milky white stilettos with red floral accents.</p>
+                        <p><strong>R195</strong> | 390+ sold</p>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/pink_pearl.jpg" alt="Pink Pearl plain baby pink almond nail set" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Pink Pearl</strong></p>
+                        <p>Soft pink almond with high gloss finish.</p>
+                        <p><strong>R100</strong> | 1.2k+ sold</p>
+                        <br>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+
+                    <article class="product-card">
+                        <picture>
+                            <img src="images/sizingkit.jpg" alt="KlawedUp sizing kit" width="100%" loading="lazy">
+                        </picture>
+                        <p><strong>Sizing Kit</strong></p>
+                        <p>Ensure a perfect fit with our essential nail sizing guide.</p>
+                        <p><strong>R210</strong> | 300+ sold</p>
+                        <p><a href="purchase_item.html">Select Product</a></p>
+                    </article>
+                </div>
+                <p class="no-results" hidden>No products match your selected filters.</p>
+
+                <hr>
+
+                <section>
+                    <h2>Custom Orders</h2>
+                    <p>Want a personalised set inspired by your own style, event or colour palette?</p>
+                    <p><a href="enquiries.html">Send a custom order enquiry</a></p>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <hr>
+    <footer>
+        <h4 align = "center">Follow Us</h4>
+        <p align = "center">
+            <a target = "_blank" href="https://www.instagram.com/klawedup.co?utm_source=qr&igsh=b3dlc2h4dDZibWM2">
+                <img src="images/instaLogo.png" alt="Instagram" width = "40">
+            </a>
+            <a target = "_blank" href="https://www.tiktok.com/@klawedup.co?_r=1&_t=ZS-95b07XnOkh0">
+                <img src="images/tiktokLogo.png" alt="TikTok" width = "40">
+            </a>
+        </p>
+
+        <div>
+            <p align = "center">Copyright © 2026 KlawedUp. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js_assets/script.js"></script>
+</body>
+</html>

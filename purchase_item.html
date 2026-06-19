@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Review your selected KlawedUp press-on nail set, choose your size and shape, and continue to checkout.">
+    <meta name="author" content="KlawedUp">
+
+    <meta property="og:title" content="Purchase Press-On Nails | KlawedUp">
+    <meta property="og:description" content="Review your selected KlawedUp press-on nail set, choose your size and shape, and continue to checkout.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/officialLogo.png">
+    <meta property="og:url" content="http://127.0.0.1:5503/purchase_item.html">
+    
+    <link rel="stylesheet" href="/css_assets/style.css">
+    <title>Purchase Press-On Nails | KlawedUp</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation List -->
+        <table width="100%">
+            <tr>
+                <td width="220">
+                    
+                        <img src="images/officialLogo.png" alt="KlawedUp logo" width="180">
+                    
+                </td>
+                <td>
+                    <h1>Purchase Item</h1>
+                    <p>Review your selected set and continue to checkout.</p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <nav>
+            <p>
+                <a href="index.html">Home</a> |
+                <a href="about_us.html">About</a> |
+                <a href="products.html">Products</a> |
+                <a href="contact_us.html">Contact</a> |
+                <a href="enquiries.html">Enquiries</a> |
+                <a href="gallery.html">Gallery</a>
+            </p>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <div class="purchase-layout">
+            <div class="purchase-media">
+                <picture>
+                    <img src="images/winter_wonderland.jpg" alt="Winter Wonderland cool-toned handmade press-on nail set" width="100%">
+                </picture>
+                
+                
+            </div>
+
+            <div>
+                <p><strong>Selected Product</strong></p>
+                    <h2 data-product-name>Winter Wonderland</h2>
+                    <p data-product-description>Elegant cool-toned nail set with a luxe seasonal finish.</p>
+                    <p><strong>Price:</strong> <span data-product-price>R129</span></p>
+                    <p><strong>Status:</strong> <span data-product-status>In stock</span></p>
+                    <p><strong>Orders:</strong> <span data-product-orders>31+ sold</span></p>
+                    <p><strong>Category:</strong> <span data-product-category>Short Nail Sets</span></p>
+
+                    <hr>
+
+                    <h3>Product Details</h3>
+                    <ul>
+                        <li>Handmade reusable press-on nails</li>
+                        <li>Salon-inspired finish</li>
+                        <li>Ideal for events, gifts and everyday glam</li>
+                        <li>Includes application instructions and essentials</li>
+                    </ul>
+
+                    <hr>
+
+                    <form action="checkout.html" method="get">
+                        <input type="hidden" name="product" value="winter-wonderland">
+                        <p>
+                            <label for="size">Choose Nail Size:</label><br>
+                            <select id="size" name="size">
+                                <option>XS</option>
+                                <option>S</option>
+                                <option selected>M</option>
+                                <option>L</option>
+                                <option>Custom Sizing</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label for="shape">Choose Nail Shape:</label><br>
+                            <select id="shape" name="shape">
+                                <option selected>Short Square</option>
+                                <option>Medium Almond</option>
+                                <option>Long Coffin</option>
+                                <option>Stiletto</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label for="quantity">Quantity:</label><br>
+                            <input type="number" id="quantity" name="quantity" value="1" min="1" max="10">
+                        </p>
+
+                        <p>
+                            <label for="notes">Custom Notes:</label><br>
+                            <textarea id="notes" name="notes" rows="6" cols="45" placeholder="Add colour changes, initials, sizing notes or special requests."></textarea>
+                        </p>
+
+                        <p>
+                            <button type="submit">Proceed to Checkout</button>
+                        </p>
+                    </form>
+
+                    <p><a href="products.html">Back to products</a></p>
+            </div>
+        </div>
+
+        <hr>
+       
+        <section>
+            <h2>What is included?</h2>
+            <div class="details-grid">
+                <article class="detail-card">
+                    <strong>Nail Set</strong>
+                    <p>Your selected handmade press-on nails.</p>
+                </article>
+                <article class="detail-card">
+                    <strong>Nail Glue</strong>
+                    <p>For secure application and longer wear.</p>
+                </article>
+                <article class="detail-card">
+                    <strong>Nail File</strong>
+                    <p>For shaping and final touch-ups.</p>
+                </article>
+                <article class="detail-card">
+                    <strong>Prep Tools</strong>
+                    <p>Alcohol wipe and cuticle pusher included.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    
+    <hr>
+   <footer>
+        <h4 align = "center">Follow Us</h4>
+        <p align = "center">
+            <a target = "_blank" href="https://www.instagram.com/klawedup.co?utm_source=qr&igsh=b3dlc2h4dDZibWM2">
+                <img src="images/instaLogo.png" alt="Instagram" width = "40">
+            </a>
+            <a target = "_blank" href="https://www.tiktok.com/@klawedup.co?_r=1&_t=ZS-95b07XnOkh0">
+                <img src="images/tiktokLogo.png" alt="TikTok" width = "40">
+            </a>
+        </p>
+
+        <div>
+            <p align = "center">Copyright © 2026 KlawedUp. All rights reserved.</p>
+        </div>
+   </footer>
+   <script src="js_assets/script.js"></script>
+</body>
+</html>
